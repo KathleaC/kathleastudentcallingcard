@@ -19,7 +19,17 @@ export function CallingCard() {
           <h1 className="font-serif text-4xl font-semibold tracking-tight text-balance">
             Kathlea Corla
           </h1>
-          <p className="text-sm text-muted-foreground">Now on GitHub</p>
+          <p className="text-sm text-muted-foreground">
+  <a
+  href="https://github.com/KathleaC/kathleastudentcallingcard"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="underline decoration-sunset-pink/60 underline-offset-4 transition-colors hover:text-primary focus-visible:rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+  >
+  Now on GitHub
+  <span className="sr-only"> (opens in a new tab)</span>
+  </a>
+  </p>
           <p className="text-lg text-primary">Computer Science BS</p>
           <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground">
             University of Central Florida
