@@ -7,11 +7,11 @@ export function CallingCard() {
     <article className="w-full max-w-md overflow-hidden rounded-2xl border bg-card text-card-foreground shadow-xl shadow-primary/10">
       <div
         aria-hidden="true"
-        className="h-28 bg-gradient-to-br from-primary/30 via-primary/70 to-primary"
+        className="h-28 bg-gradient-to-r from-sunset-violet via-sunset-pink to-sunset-orange"
       />
 
       <div className="flex flex-col gap-6 px-8 pb-8">
-        <div className="-mt-10 flex size-20 items-center justify-center rounded-full border-4 border-card bg-primary font-serif text-2xl font-semibold text-primary-foreground">
+        <div className="-mt-10 flex size-20 items-center justify-center rounded-full border-4 border-card bg-gradient-to-br from-sunset-violet to-sunset-pink font-serif text-2xl font-semibold text-primary-foreground">
           KC
         </div>
 
@@ -32,7 +32,7 @@ export function CallingCard() {
 
         <a
           href={`mailto:${EMAIL}`}
-          className="group flex items-center justify-between gap-3 rounded-xl bg-primary px-5 py-4 font-medium text-primary-foreground transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring/40"
+          className="group flex items-center justify-between gap-3 rounded-xl bg-gradient-to-r from-sunset-violet via-sunset-pink to-sunset-orange px-5 py-4 font-medium text-primary-foreground shadow-md shadow-sunset-pink/20 transition-shadow hover:shadow-lg hover:shadow-sunset-pink/30 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ring/40"
         >
           <span className="flex items-center gap-3">
             <Mail className="size-5" aria-hidden="true" />
