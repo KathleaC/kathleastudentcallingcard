@@ -19,6 +19,7 @@ export function CallingCard() {
           <h1 className="font-serif text-4xl font-semibold tracking-tight text-balance">
             Kathlea Corla
           </h1>
+          <p className="text-sm text-muted-foreground">Now on GitHub</p>
           <p className="text-lg text-primary">Computer Science BS</p>
           <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground">
             University of Central Florida
